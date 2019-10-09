@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Permanent+Marker&display=swap" rel="stylesheet">
+	<title>왁굳에 관하여</title>
+	<style type="text/css">
+		body{margin: 0;}
+
+		.aa{height: 709px; width: 1500px; margin: auto; position: relative;}
+		.yellow{background: yellow;}
+		.text{position: absolute;}
+		.img{position: absolute;}
+		.quest{opacity: 0.5;}
+		.quest:hover{opacity: 1;}
+		.ans{width: 400px; margin-top: 200px; opacity: 0;}
+		.dd{opacity: 0.5;}
+		.dd:hover{opacity: 1;}
+		.mtitle{color: white; font-family: 'TmonMonsori'; font-size: 27px; margin-top: 140px; margin-left: 520px; opacity: 0;}
+		.minside{color: white; font-family: 'Handon3gyeopsal300g'; font-size: 25px; margin-left: 540px; margin-top: 350px; opacity: 0;}
+		#wowakgoodk{font-family: 'TmonMonsori'; font-size: 230px; margin-top: 120px; margin-left: 140px;}
+		#engname{font-family: 'Bangers', cursive; font-size: 120px; margin-top: 0px; margin-top: 350px; margin-left: 240px;}
+		#wakdomain{width: 500px; margin-left: 900px;}
+		#q1{margin-left: 1115px; margin-top: 135px;}
+		#q2{margin-left: 1119px; margin-top: 165px; height: 15px;}
+		#q3{margin-left: 1119px; margin-top: 197px;}
+		#q4{margin-left: 1119px; margin-top: 230px;}
+		#q5{margin-left: 1119px; margin-top: 313px; height: 17px;}
+		#q6{margin-left: 1119px; margin-top: 345px; height: 15px;}
+		#q7{margin-left: 1119px; margin-top: 405px; height: 15px;}
+		#q8{margin-left: 1119px; margin-top: 435px; height: 15px;}
+		#q9{margin-left: 1119px; margin-top: 463px;}
+		#q10{margin-left: 1119px; margin-top: 520px; height: 15px;}
+		#monitor{width: 80px; height: 30px; background:black; color: white; position: fixed; top:0; right: 0; opacity: 0;}
+		#musicbar{transition: all 1s;}
+		#grp{width: 600px; margin-top:155px; margin-left:730px; opacity: 0;}
+		#onbar{width: 300px; margin-left:480px; margin-top: 110px; opacity: 0;}
+		#dic1{width: 200px; margin-top: 50px;}
+		#dic2{width: 300px; margin-top: 210px; margin-left: -50px;}
+		#dic3{width: 300px; margin-top: 420px; margin-left: -50px;}
+		#dic4{width: 260px; margin-top: 140px; margin-left: 190px;}
+		#dic5{width: 200px; margin-top: 410px; margin-left: 230px;}
+
+		@keyframes rtol{
+			from{left: -100px; opacity: 0;}to{left: 50px; opacity: 1;}
+		}
+		@keyframes ltor{
+			from{right: 50px; opacity: 0;}to{right: 700px; opacity: 1;}
+		}
+
+		@font-face { font-family: 'Handon3gyeopsal300g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal300g.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+		@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+		@font-face { font-family: 'BMYEONSUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+		@import url('https://fonts.googleapis.com/css?family=Bangers|Permanent+Marker&display=swap');
+
+	</style>
+</head>
+<body>
+	<section class="aa">
+		<h1 class="text" id="wowakgoodk">우왁굳</h1>
+		<h1 class="text" id="engname">Wo Wak - Good</h1>
+		<img src="wakdomain.gif" class="img" id="wakdomain">
+		
+	</section>
+
+	<section class="aa">
+		<img src="tbackg.jpg" class="img" id="tbackg">
+		<img src="q1.png" class="img quest" id="q1">
+		<img src="q2.png" class="img quest" id="q2">
+		<img src="q3.png" class="img quest" id="q3">
+		<img src="q4.png" class="img quest" id="q4">
+		<img src="q5.png" class="img quest" id="q5">
+		<img src="q6.png" class="img quest" id="q6">
+		<img src="q7.png" class="img quest" id="q7">
+		<img src="q8.png" class="img quest" id="q8">
+		<img src="q9.png" class="img quest" id="q9">
+		<img src="q10.png" class="img quest" id="q10">
+
+		<img src="a1.png" class="img ans" id="a1">
+		<img src="a2.png" class="img ans" id="a2">
+		<img src="a3.png" class="img ans" id="a3">
+		<img src="a4.png" class="img ans" id="a4">
+		<img src="a5.png" class="img ans" id="a5">
+		<img src="a6.png" class="img ans" id="a6">
+		<img src="a7.png" class="img ans" id="a7">
+		<img src="a8.png" class="img ans" id="a8">
+		<img src="a9.png" class="img ans" id="a9">
+		<img src="a10.png" class="img ans" id="a10">
+
+		<audio src="a1.mp3" id="aa1"></audio>
+		<audio src="a2.mp3" id="aa2"></audio>
+		<audio src="a3.mp3" id="aa3"></audio>
+		<audio src="a4.mp3" id="aa4"></audio>
+		<audio src="a5.mp3" id="aa5"></audio>
+		<audio src="a6.mp3" id="aa6"></audio>
+		<audio src="a7.mp3" id="aa7"></audio>
+		<audio src="a8.mp3" id="aa8"></audio>
+		<audio src="a9.mp3" id="aa9"></audio>
+		<audio src="a10.mp3" id="aa10"></audio>
+
+		<script type="text/javascript">
+			var astate = "off";
+			q1.onclick = function(){
+				if (astate == "off"){ aa1.play(); astate="on";
+				a1.style.opacity = "1";}
+				else{aa1.pause(); astate="off";
+				a1.style.opacity = "0";}
+			}
+
+			var bstate = "off";
+			q2.onclick = function(){
+				if (bstate == "off"){ aa2.play(); bstate="on";
+				a2.style.opacity = "1";}
+				else{aa2.pause(); bstate="off";
+				a2.style.opacity = "0";}
+			}
+
+			var cstate = "off";
+			q3.onclick = function(){
+				if (cstate == "off"){ aa3.play(); cstate="on";
+				a3.style.opacity = "1";}
+				else{aa3.pause(); cstate="off";
+				a3.style.opacity = "0";}
+			}
+
+			var dstate = "off";
+			q4.onclick = function(){
+				if (dstate == "off"){ aa4.play(); dstate="on";
+				a4.style.opacity = "1";}
+				else{aa4.pause(); dstate="off";
+				a4.style.opacity = "0";}
+			}
+
+			var estate = "off";
+			q5.onclick = function(){
+				if (estate == "off"){ aa5.play(); estate="on";
+				a5.style.opacity = "1";}
+				else{aa5.pause(); estate="off";
+				a5.style.opacity = "0";}
+			}
+
+			var fstate = "off";
+			q6.onclick = function(){
+				if (fstate == "off"){ aa6.play(); fstate="on";
+				a6.style.opacity = "1";}
+				else{aa6.pause(); fstate="off";
+				a6.style.opacity = "0";}
+			}
+
+			var gstate = "off";
+			q7.onclick = function(){
+				if (gstate == "off"){ aa7.play(); gstate="on";
+				a7.style.opacity = "1";}
+				else{aa7.pause(); gstate="off";
+				a7.style.opacity = "0";}
+			}
+
+			var hstate = "off";
+			q8.onclick = function(){
+				if (hstate == "off"){ aa8.play(); hstate="on";
+				a8.style.opacity = "1";}
+				else{aa8.pause(); hstate="off";
+				a8.style.opacity = "0";}
+			}
+
+			var istate = "off";
+			q9.onclick = function(){
+				if (istate == "off"){ aa9.play(); istate="on";
+				a9.style.opacity = "1";}
+				else{aa9.pause(); istate="off";
+				a9.style.opacity = "0";}
+			}
+
+			var jstate = "off";
+			q10.onclick = function(){
+				if (jstate == "off"){ aa10.play(); jstate="on";
+				a10.style.opacity = "1";}
+				else{aa10.pause(); jstate="off";
+				a10.style.opacity = "0";}
+			}
+
+			
+		</script>
+
+	</section>
+
+
+	<section class="aa" id="musicbar">
+		<h1 class="mtitle text" id="m1">BoongBoong Remix - Badassgatsby</h1>
+		<h1 class="mtitle text" id="m2">Alzar Takkarsen (BLKFLAGZ & WAKGOOD RECORDS REMIX)</h1>
+		<h1 class="mtitle text" id="m3">SHAKE IT (Remix By.Gark)</h1>
+		<h1 class="mtitle text" id="m4">Rap God</h1>
+		<h1 class="mtitle text" id="m5">잡어(雜魚) (remix by WIXKEDWAI)</h1>
+
+		<p class="text minside" id="mm1">실제로 프로듀싱을 하는 음악가, 나쁜개츠비의 리믹스이다. <br><br> 빈지노와 슈퍼비 등 유명 래퍼와도 작업을 한 프로듀서. <br><br> 커버곡 위주였던 우왁굳 팬 음악씬의 판도를 바꾼 작품이며 <br><br> 깔끔한 드롭부분이 중독적인 것이 특징이다. </p>
+
+		<p class="text minside" id="mm2">F/W 시즌 우왁굳x휠라 2차 콜라보를 축하하기 위한 노래 <br><br> 우왁굳의 팬 리믹스를 올리는 유투브 계정이다. <br><br> '알아서 잘 깔끔하고 센스있게'라는 뜻인 우왁굳의 유행어 <br><br> 알잘딱갈센을 이용한 리믹스. <br><br> 하이라이트 부분은 현역 DJ들의 EDM을 생각나게 하는 수준의 명곡 </p>
+
+		<p class="text minside" id="mm3">우왁굳의 팬 게임 공모전에서 나온 '왁좌의 게임'에 나와 <br><br> 더욱 유명해진 노래이다. 갉갉 제작 <br><br> 가벼운 템포와 신나는 리듬감으로 중독성이 심한 노래 <br><br> 노동요로 들으면 효과적이다. </p>
+
+		<p class="text minside" id="mm4">에미넴의 랩 갓을 커버한 작품이다. <br><br> 원곡 특유의 따다다다 쏘는 듯한 느낌을 잘 살렸다. <br><br> 오토튠에 의지하지 않고 말 사이의 공백을 잘 활용하여 귀에 꽂힌다. <br><br> 길이가 짧은 것이 아쉽지만 전혀 부족하지 않은 노래. </p>
+
+		<p class="text minside" id="mm5">팬들 사이에서도 반응이 좋았던 노래 중 하나이다. <br><br> 우왁굳의 목소리를 잘 살려 박자감을 매우 효과적으로 이용했다. <br><br> 장기하 느낌이 강해서 취향을 탈 수도 있는 곡이지만, <br><br> '내방송을 끄고 딴 거를 해' 부분은 누구나 감탄하는 파트이다. </p>
+
+
+
+		<img src="graph.gif" class="img" id="grp">
+		<img src="soundon.gif" class="img" id="onbar">
+		<img src="dic1.gif" class="img dd" id="dic1" >
+		<img src="dic2.gif" class="img dd" id="dic2" >
+		<img src="dic3.gif" class="img dd" id="dic3" >
+		<img src="dic4.gif" class="img dd" id="dic4" >
+		<img src="dic5.gif" class="img dd" id="dic5" >
+		<audio src="1bbong.mp3" id="track1" loop></audio>
+		<audio src="2alzal.mp3" id="track2" loop></audio>
+		<audio src="3shakeit.mp3" id="track3" loop></audio>
+		<audio src="4rapgod.mp3" id="track4" loop></audio>
+		<audio src="5zapuh.mp3" id="track5" loop></audio>
+
+
+	</section>
+
+	<div id="monitor"></div>
+
+	<script type="text/javascript">
+		var aastate = "off";
+			dic1.onclick = function(){
+				if (aastate == "off"){ track1.play(); aastate="on";
+				m1.style.opacity = "1";
+				mm1.style.opacity = "1";
+				musicbar.style.opacity = "1";
+				grp.style.opacity = "1";}
+				else{track1.pause(); aastate="off";
+				m1.style.opacity = "0"
+				mm1.style.opacity = "0";
+				musicbar.style.opacity = "0";
+				grp.style.opacity = "0";}
+			}
+			var bbstate = "off";
+			dic2.onclick = function(){
+				if (bbstate == "off"){ track2.play(); bbstate="on";
+				m2.style.opacity = "1";
+				mm2.style.opacity = "1";
+				onbar.style.opacity = "1";
+				grp.style.opacity = "1";}
+				else{track2.pause(); bbstate="off";
+				m2.style.opacity = "0";
+				mm2.style.opacity = "0";
+				onbar.style.opacity = "0";
+				grp.style.opacity = "0";}
+			}
+			var ccstate = "off";
+			dic3.onclick = function(){
+				if (ccstate == "off"){ track3.play(); ccstate="on";
+				m3.style.opacity = "1";
+				mm3.style.opacity = "1";
+				onbar.style.opacity = "1";
+				grp.style.opacity = "1";}
+				else{track3.pause(); ccstate="off";
+				m3.style.opacity = "0";
+				mm3.style.opacity = "0";
+				onbar.style.opacity = "0";
+				grp.style.opacity = "0";}
+			}
+			var ddstate = "off";
+			dic4.onclick = function(){
+				if (ddstate == "off"){ track4.play(); ddstate="on";
+				m4.style.opacity = "1";
+				mm4.style.opacity = "1";
+				onbar.style.opacity = "1";
+				grp.style.opacity = "1";
+				}
+				else{track4.pause(); ddstate="off";
+				m4.style.opacity = "0";
+				mm4.style.opacity = "0";
+				onbar.style.opacity = "0";
+				grp.style.opacity = "0";
+				}
+			}
+			var eestate = "off";
+			dic5.onclick = function(){
+				if (eestate == "off"){ track5.play(); eestate="on";
+				m5.style.opacity = "1";
+				mm5.style.opacity = "1";
+				onbar.style.opacity = "1";
+				grp.style.opacity = "1";}
+				else{track5.pause(); eestate="off";
+				m5.style.opacity = "0";
+				mm5.style.opacity = "0";
+				onbar.style.opacity = "0";
+				grp.style.opacity = "0";}
+			}
+
+
+		window.onscroll = function(){
+			var t = document.documentElement.scrollTop + document.body.scrollTop;
+			monitor.innerHTML = t ;
+
+			
+
+
+			if (t > 1100){
+				musicbar.style.background = "black";
+				
+				document.body.style.background = "black";
+			}
+
+			else{
+				musicbar.style.background = "white";
+				
+				document.body.style.background = "white";
+			}
+		}
+
+		wowakgoodk.style.animation = "ltor 1s forwards";
+		engname.style.animation = "rtol 1s forwards";
+	</script>
+	
+
+</body>
+</html>
